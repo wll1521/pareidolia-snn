@@ -9,6 +9,9 @@ venv/
 *.npz
 *.npy
 
+#ignore image files
+faces_in_things/
+
 # Ignore temporary files
 __pycache__/
 *.pyc
