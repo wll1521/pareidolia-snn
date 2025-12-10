@@ -4,7 +4,6 @@ import requests
 from tqdm import tqdm
 
 def download_faces_in_things(csv_path="data/metadata.csv", save_dir="data/faces_in_things"):
-    """Downloads all images from the Faces in Things metadata file."""
     df = pd.read_csv(csv_path)
     url_col = 'url' if 'url' in df.columns else df.columns[0]
 

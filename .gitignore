@@ -1,22 +1,16 @@
-# Ignore Python virtual environments
 venv/
 .env/
+.vscode/
+.idea/
 
-# Ignore big data and model files
-*.h5
-*.hdf5
-*.pkl
-*.npz
-*.npy
+*.keras
 
-#ignore image files
 faces_in_things/
+results/
+experiment_log.csv
 
-# Ignore temporary files
 __pycache__/
 *.pyc
 *.log
 
-# Ignore IDE settings
-.vscode/
-.idea/
+
