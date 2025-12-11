@@ -4,9 +4,8 @@ from .preprocess import img_size
 
 ####### Siamese Neural Network Model ######
 # 1 Variable: Can change margin for required distance between dissimilar pairs
-# Can alter layers as needed or we can switch out for a new model entirely
 # using Contrastive loss which pushes apart dissimilar pairs and pulls together similar ones
-
+# Can also alter layers or change to another loss metric for a new model entirely
 
 INPUT_SHAPE=(img_size, img_size, 3)
 

@@ -15,6 +15,9 @@ import matplotlib.pyplot as plt
 # Can change image size for faster or more accurate results
 # LFW default size is 250 so I just resized facesInthings to 250 as well (originally 500)
 # 250 requires around 12 gigs of RAM to store LFW dataset
+# 7 other variables to play with. Look at metadata file for more info on categories
+# I wouldn't go above 9000 train and 3000 test pairs if you have less than 32 GB of ram. 
+# Requires a lot of memory if your image size is 150 or higher
 
 img_size = 64
 

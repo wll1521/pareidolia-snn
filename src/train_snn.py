@@ -10,6 +10,12 @@ from .evaluation import evaluate_model
 from .logger import log_experiment
 
 
+######## Training #######
+# Main thing to change here is epochs and batch sizes
+# Batch size controls how many training samples are processed before the model updates its weights (more mem required)
+# If too small loss will fluctuate, too large converges on local minimum
+# Can also change early stopping patience. I keep it on 5 with a max of 40. The model tends to converge prior to 20 epochs
+
 def set_seeds(seed: int = 42):
     import random
     random.seed(seed)
