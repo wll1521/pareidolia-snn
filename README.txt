@@ -1,7 +1,6 @@
 # Pareidolia Siamese Neural Network
 
-This experiment distinguishes real human faces (LFW) from face-like patterns called pareidolia (Faces in Things dataset) using a Siamese Neural Network built in TensorFlow/Keras.
-Paper report pdf included.
+This experiment distinguishes real human faces (LFW) from face-like patterns called pareidolia (Faces in Things dataset) using a Siamese Neural Network built in TensorFlow/Keras. Report pdf included.
 
 ## Setup
 ```bash
