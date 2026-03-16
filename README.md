@@ -1,6 +1,6 @@
-# Pareidolia Siamese Neural Network
+# SIAMESE NEURAL NETWORK FOR PAREIDOLIA MITIGATION
 
-This experiment distinguishes real human faces (LFW) from face-like patterns called pareidolia (Faces in Things dataset) using a Siamese Neural Network built in TensorFlow/Keras. Report pdf included.
+Developed a Siamese Neural Network (SNN) in Keras/TensorFlow with shared-weight convolutional architecture to distinguish genuine human faces from pareidolic face-like patterns by learning similarity embeddings via contrastive loss and Euclidean distance on paired inputs from the LFW and Faces in Things datasets; achieved 99.6% accuracy, 0.999 AUC, and F1-scores > 0.995 across 42 ablation experiments, with robust generalization to unseen pareidolia categories using as little as 0.5% of non-face training data.
 
 ## Setup
 ```bash
